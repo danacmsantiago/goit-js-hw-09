@@ -16,12 +16,6 @@ function createPromise(position, delay) {
       }
     }, delay);
   });
-
-  if (shouldResolve) {
-    // Fulfill
-  } else {
-    // Reject
-  }
 }
 
 function handleSubmit(event) {
