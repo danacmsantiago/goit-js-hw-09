@@ -9,6 +9,8 @@ let colorChange;
 const startButton = document.querySelector('button[data-start]');
 const stopButton = document.querySelector('button[data-stop]');
 
+stopButton.disabled = true;
+
 startButton.addEventListener('click', function () {
   startButton.disabled = true;
   stopButton.disabled = false;
